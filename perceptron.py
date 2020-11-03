@@ -55,8 +55,8 @@ for _ in range(100):
         err = pr.train(inp,output)
         errors.append(err)
 
-h = float(input("Introduce el peso en kilogramos.- "))
-w = float(input("Introduce el color promedio.- "))
+h = float(input("Introduce el peso en kilogramos: "))
+w = float(input("Introduce el color promedio: "))
 
 if pr.predict([1,h,2]) == 1: print ("Piña")
 else: print ("Manzana")
